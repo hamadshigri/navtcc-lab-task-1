@@ -92,7 +92,7 @@ for (let i = 1; i <= 50; i++) {
 
 // -------------------------------------------------------------------------------------
 
-// Task 5: Reverse Counting
+// Task 6: Reverse Counting
 // Print numbers from 20 to 1.
 
 // Solution:
@@ -102,7 +102,7 @@ for (let i = 20; i >= 1; i--) {
 
 // -------------------------------------------------------------------------------------
 
-// Task 6: Factorial Calculator
+// Task 7: Factorial Calculator
 // Find factorial of a number.
 // Example:
 // 5! = 5 × 4 × 3 × 2 × 1
@@ -119,7 +119,7 @@ console.log("Factorial of " + num + " is:" + factorial);
 
 // --------------------------------------------------------------------------------------
 
-// Task 7: Count Digits
+// Task 8: Count Digits
 // Take a number like:
 // 12345
 // Count how many digits it has
@@ -133,7 +133,7 @@ console.log(count);
 
 // --------------------------------------------------------------------------------------
 
-// Task 8: Sum of Even Numbers (1–100)
+// Task 9: Sum of Even Numbers (1–100)
 
 // Solution:
 let sum = 0
@@ -147,7 +147,7 @@ console.log("Sum of even numbers from 1 to 100 is:", sum);
 
 // -------------------------------------------------------------------------------------
 
-// Task 9: Prime Number Checker
+// Task 10: Prime Number Checker
 // Check if a number is prime.
 
 // Solution:
@@ -174,7 +174,7 @@ if (isPrime) {
 
 // ------------------------------------------------------------------------------------
 
-// Task 10: ATM Machine
+// Task 11: ATM Machine
 // User enters amount.
 // • If balance sufficient → deduct amount
 // • Else → "Insufficient balance"
@@ -193,7 +193,7 @@ if (amount <= balance) {
 
 // -----------------------------------------------------------------------------------
 
-// Task 11: Password Strength Checker
+// Task 12: Password Strength Checker
 // Check if password:
 // • At least 8 characters
 // • Contains number
@@ -215,7 +215,7 @@ if (hasNumber && hasUpperCase && isLongEnough) {
 
 // ------------------------------------------------------------------------------------
 
-// Task 12: FizzBuzz
+// Task 13: FizzBuzz
 // From 1–50:
 // • Multiple of 3 → "Fizz"
 // • Multiple of 5 → "Buzz"
